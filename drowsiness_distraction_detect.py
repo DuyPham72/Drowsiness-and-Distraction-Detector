@@ -5,7 +5,7 @@ from imutils import face_utils
 
 # ——— Constants ———
 EAR_THRESHOLD   = 0.3       # threshold for "eye closed"
-YAW_THRESHOLD = 35        # threshold for "head shaking" (degree)
+YAW_THRESHOLD = 35          # threshold for "head shaking" (degree)
 PITCH_THRESHOLD_UPPER = 175 # upper threshold for "head nodding" (degree)
 PITCH_THRESHOLD_LOWER = 160 # lower threshold for "head nodding" (degree)
 CONSEC_FRAMES   = 24        # consecutive frames for drowsiness and distraction

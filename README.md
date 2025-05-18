@@ -39,7 +39,7 @@ You also need the pretrained landmark model file: `shape_predictor_68_face_landm
    pip install opencv-python dlib imutils numpy
 2. Download the dlib shape predictor:
      
-   Go to `http://dlib.net/files/` to download the predictor
+   Go to `http://dlib.net/files/` to download the predictor `shape_predictor_68_face_landmarks.dat`
    
 4. Run the script:
    ```bash
